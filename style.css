@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 300px;
+    background-color: rgb(95, 210, 255);
 
 }
 img.perfil{
