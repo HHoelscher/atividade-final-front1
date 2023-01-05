@@ -1,35 +1,66 @@
+* {
+  margin: 0;
+}
+
+.leftmenu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(11, 222, 250);
+  width: 25vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftmenu-img {
+  border-radius: 50%;
+  width: 60%;
+}
+
+.leftmenu-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-link {
+  margin-top: 1em;
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline ;
+}
+
 body {
-    display: flex;
-    align-items: center;
-    background-color: rgb(240, 240, 240);
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
 }
-.cabecalho {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 300px;
-    background-color: rgb(95, 210, 255);
+.redes-sociais {
+  display: flex;
+}
+.icons {
+  width: 60px;
+}
+.hdata,.descricao,.redes-sociais{
+  margin-left: 40px;
 
 }
-img.perfil{
-    border-radius: 70%;
-    width: 70%;
-    
+.hdata{
+  margin-top: 30% ;
+
 }
-.nav {
-    display: flex;
-    flex-direction: column;
+.title {
+  margin-bottom: 10px ;
+}
+
+.objetivos{
+    margin-top: 48%;
+    margin-left: 40px;
     align-items: center;
     
 }
-.redes-sociais{
-    display: inline;
-    
+.conhecimentos{
+  margin-left: 40px;
+  margin-top: 100%;
 }
-
-.redes {
-    width: 50px;
-    border-radius: 50%;
-}
-
