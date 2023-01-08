@@ -21,6 +21,11 @@
 
 .nome {
   font-family: 'Anton', sans-serif;
+  font-size: 60px;
+}
+
+.infos, .description, .conhecimentos, .objetivos {
+  font-family: 'Open Sans', sans-serif;
 }
 
 
