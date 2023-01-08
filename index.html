@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <title>Sobre | Henrique</title>
   </head>
 
@@ -12,32 +15,33 @@
     <header class="leftmenu">
       <img class="leftmenu-img" src="/imgs/henrique.jpg" alt="Foto Henrique" />
       <nav class="leftmenu-nav">
-        <a href="/index.html" class="nav-link">Sobre</a>
-        <a href="/conhecimentos.html" class="nav-link">Conhecimentos</a>
-        <a href="/objetivos.html" class="nav-link">Objetivos</a>
+        <ul>
+          <li class="menulist"><a href="/index.html" class="nav-link"><button> Sobre</button></a></li>
+          <li class="menulist"><a href="/conhecimentos.html" class="nav-link"><button> Conhecimentos</button></a></li>
+          <li class="menulist"><a href="/objetivos.html" class="nav-link"><button> Objetivos</button></a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <div class="hdata">
+      <div class="layout-page data">
         <h1 class="nome">Henrique <span class="last-name">Hoelscher</span></h1>
         <br>
-        <p class="infos">
-          <strong>Email:</strong>
-          <span class="email">Hoelscherdev@gmail.com</span><br />
-          <strong>Fone:</strong> +555198127634 <br />
-          <strong>Endereço:</strong> Lorem ipsum dolor sit amet consectetur.
-        </p>
+        <ul class="infos">
+          <li class="infolist"><strong>Email:</strong><span class="email"> Hoelscherdev@gmail.com</span></li>
+          <li class="infolist"><strong>Fone:</strong> +555198127634 </li>
+          <li class="infolist"><strong>Endereço:</strong> Lorem ipsum dolor sit amet consectetur.</li>
+        </ul>
          <br>
       </div>
 
-      <div class="descricao">
-        <p>
-          <span class="aboutme">Meu</span> nome é Henrique Hoelscher, tenho 21 anos e estou cursando a 13<sup
+      <div class="description">
+        <p class="aboutme">
+          Meu nome é Henrique Hoelscher, tenho 21 anos e estou cursando a 13<sup
             >a</sup>
-          Edição do Programa Stater - FullStack Web Developer da
-          <a href="https://www.growdev.com.br/" target="_blank">Growdev</a
-          >.<br />
+          Edição do <a href="https://www.growdev.com.br/starter-2" target="_blank">Programa Stater</a
+            > - FullStack Web Developer da
+          Growdev.<br />
           Sou muito dedicado, em constante aprendizado e entusiasmado para
           alcançar cada vez mais meus objetivos e novos conhecimentos. <br />
           Possuo muita criatividade, sou proativo, gosto de trabalhar em equipe,
@@ -53,10 +57,8 @@
             alt="GitHub Henrique Hoelscher"
             class="icons"
         /></a>
-        <a
-          href="https://www.linkedin.com/in/henrique-hoelscher-9392ba1a4/"
-          target="_blank"
-          ><img
+        <a href="https://www.linkedin.com/in/henrique-hoelscher-9392ba1a4/" target="_blank">
+          <img
             src="/imgs/linkedin.png"
             alt="Linkedin Henrique Hoeslcher"
             class="icons"

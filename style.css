@@ -1,80 +1,97 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .leftmenu {
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.568), black);
-  width: 25vw;
+  width: 30vw;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
+  background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.568), black);
+  text-align: center;
+  padding-top: 20vh ;
+
 }
 
 .leftmenu-img {
   border-radius: 50%;
   border: 5px solid white;
-  width: 60%;
+  width: 15vw;
 }
 
-.leftmenu-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.nome {
+  font-family: 'Anton', sans-serif;
 }
 
-.nav-link {
-  margin-top: 1em;
-  text-decoration: none;
-  color: black;
+
+button {
+  border-color: #000e0c;
+  color: rgb(5, 5, 5);
+  box-shadow: 0 0 40px 40px #e7ece7 inset, 0 0 0 0 #111011;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  border-radius: 5px;
+  width: 140px;
+  height: 25px;
+  font-family: 'Roboto', sans-serif;
 }
-.nav-link:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: underline ;
+
+button:hover {
+  box-shadow: 0 0 10px 0 #fffffd inset, 0 0 10px 4px #fcfbfa; 
+}
+
+button {
+  margin-top: 20px;
+  font-size: large;
 }
 
 body {
   display: flex;
+  background-color: rgba(0, 14, 12, 0.103);
 }
 .redes-sociais {
   display: flex;
+  margin-top: 2vh;
 }
 .icons {
-  width: 60px;
+  width: 50px;
 
 }
-.hdata,.descricao,.redes-sociais{
-  margin-left: 40px;
 
-}
-.hdata{
-  margin-top: 30% ;
-
-}
-.title {
-  margin-bottom: 10px ;
+main {
+  margin-top: 30vh ;
+  margin-left: 2vw;
 }
 
-.objetivos{
-    margin-top: 48%;
-    margin-left: 40px;
-    align-items: center;
-    
+.goals, .knowledge {
+  padding-top: 20px ;
+  margin-left: 1vw;
+  font-size: large;
 }
-.conhecimentos{
-  margin-left: 40px;
-  margin-top: 100%;
-}
-.last-name{
+
+.last-name {
   color: rgb(32, 177, 221);
-
 }
+
 .infos{
+  padding-top: 5px;
   border: 1px solid black;
-  width:400px;;
+  border-radius: 10px;
+  width: 400px;
+  height: 100px;
+  line-height: 15px;
+  background-color: rgb(32, 177, 221);
+  list-style: none;
+}
+.infolist {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.aboutme{
+  max-width: 67vw;
+  font-size: large;
 
 }
-span::first-letter {
+.aboutme::first-letter {
   font-size: xx-large
 }
