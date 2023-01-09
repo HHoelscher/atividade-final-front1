@@ -19,7 +19,7 @@
   width: 15vw;
 }
 
-.nome {
+.nome, .titulo {
   font-family: 'Anton', sans-serif;
   font-size: 60px;
 }
