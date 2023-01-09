@@ -58,6 +58,7 @@ body {
   display: flex;
   margin-top: 2vh;
 }
+
 .icons {
   width: 50px;
 
@@ -83,7 +84,7 @@ main {
   border: 1px solid black;
   border-radius: 10px;
   width: 400px;
-  height: 100px;
+  height: 110px;
   line-height: 15px;
   background-color: rgb(32, 177, 221);
   list-style: none;
