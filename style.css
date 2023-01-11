@@ -55,13 +55,11 @@ body {
   background-color: rgba(0, 14, 12, 0.103);
 }
 .redes-sociais {
-  display: flex;
   margin-top: 2vh;
 }
 
 .icons {
   width: 50px;
-
 }
 
 main {
